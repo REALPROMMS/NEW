@@ -1,5 +1,5 @@
 .text 
-   color: #FFF
+   color: $header-color-text
    font-size: 20px
    font-weight: 700
    line-height: 48px
@@ -14,35 +14,38 @@
       gap: 2.5em
       &-link
          text-decoration: none
-         color: #FFF
+         color: $header-color-text
          text-align: center
-         font-family: Jost
          font-size: 20px
-         font-style: normal
          font-weight: 400
          line-height: 32px
  
 .header-content
    display: flex
    justify-content: space-around
-   margin: 0 125px
+   background-image: url(/img/header/header.png)
+   background-size: 39%
+   background-repeat: no-repeat
+   background-position: 635px 90px
+   height: 640px
+   
    &__left
       margin-top: 170px
       &-title
-         color: #FFF
+         color: $header-color-text
          font-size: 40px
          font-weight: 600
          line-height: 50px
          margin-bottom: 20px
       &-text
          width: 380px
-         color: #FFF
+         color: $header-color-text
          font-size: 16px
          font-weight: 400
          line-height: 26px
          margin-bottom: 50px
       &-btn
-         color: #ffffff
+         color: $header-color-text
          text-align: center
          font-size: 14px
          font-weight: 400
@@ -52,11 +55,11 @@
          background: #D52027
          text-decoration: none
          display: inline-block
-   &__right
-      display: flex
-      &-img
-         max-width: 473px
-         max-height: 573px
+   // &__right
+   //    display: flex
+   //    &-img
+   //       max-width: 473px
+   //       max-height: 573px
 
    
 
